@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
+
         <Route path="/add-movie" component={NewMovie} />
         <Route path="/pricing" component={Pricing} />
         <Route path="/movies" component={Movies} />
